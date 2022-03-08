@@ -40,7 +40,7 @@ function App() {
 
           <ul className="nav nav-pills flex-column">
             <li className="nav-item">
-              <NavLink to="/" exact className="nav-link">
+              <NavLink to="/MyPortfolio" exact className="nav-link">
                 <span className="nav-menu-icon"><FontAwesomeIcon icon={faHouse} /></span>
                 Home
               </NavLink>
