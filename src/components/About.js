@@ -182,13 +182,6 @@ const About = () => {
                             {/* Client Logo */}
                             <div className="item client-logo">
                                 <a href="#" >
-                                    <img src={skill9} alt="Client" />
-                                </a>
-                            </div>
-
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
                                     <img src={skill2} alt="Client" />
                                 </a>
                             </div>
@@ -232,6 +225,13 @@ const About = () => {
                             <div className="item client-logo">
                                 <a href="#">
                                     <img src={skill8} alt="Client" />
+                                </a>
+                            </div>
+
+                            {/* Client Logo */}
+                            <div className="item client-logo">
+                                <a href="#">
+                                    <img src={skill9} alt="Client" />
                                 </a>
                             </div>
                         </OwlCarousel>
