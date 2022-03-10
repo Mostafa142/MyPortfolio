@@ -113,18 +113,18 @@ const Portfolio = () => {
                                     <img src={Img4} alt="" />
                                     <figcaption>
                                         <h4>Sports Store </h4>
-                                        <p>on Update...!</p>
+                                        <p>On Update...!</p>
                                     </figcaption>
                                 </figure>
                             </a>
                         </div>
                         <div className="item col-lg-6 col-sm-10 design text center">
-                            <a className="ajax-link" href="https://mostafa142.github.io/Guage-Engineering-Consultants/" target={"_blank"} rel={"noreferrer"}>
+                            <a className="ajax-link" href="##" target={"_blank"} rel={"noreferrer"}>
                                 <figure>
                                     <img src={Img5} alt="" />
                                     <figcaption>
                                         <h4>Gauge Engineering</h4>
-                                        <p>Html,Css,JS & Plugins</p>
+                                        <p>In Progress...!</p>
                                     </figcaption>
                                 </figure>
                             </a>
