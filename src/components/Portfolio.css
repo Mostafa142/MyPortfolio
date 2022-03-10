@@ -53,6 +53,10 @@
   overflow: hidden;
   -webkit-border-radius: 10px;
   border-radius: 10px;
+  opacity: 0.6;
+}
+.portfolio-section .item figure:hover {
+  opacity: 1;
 }
 .portfolio-section .item figure:before {
   content: "";
@@ -92,8 +96,8 @@
 }
 
 .portfolio-section .item figure:hover:before {
-  opacity: 0.7;
-  background-color: rgba(0, 128, 128, 0.712);
+  opacity: 0.8;
+  background-color: teal;
 }
 
 .portfolio-section .item figure:hover figcaption h4,

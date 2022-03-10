@@ -6,13 +6,8 @@ import Img1 from './Images/img-1.jpg';
 import Img2 from './Images/img-2.jpg';
 import Img3 from './Images/img-3.jpg';
 import Img4 from './Images/img-4.jpg';
-// import Img5 from './Images/img-5.jpg';
-// import Img6 from './Images/img-6.jpg';
-// import Img7 from './Images/img-7.jpg';
-// import Img8 from './Images/img-8.jpg';
-// import Img9 from './Images/img-9.jpg';
-// import Img10 from './Images/img-10.jpg';
-// import Img11 from './Images/img-11.jpg';
+import Img5 from './Images/img-5.jpg';
+import Img6 from './Images/img-6.jpg';
 const pageVariants = {
     initial: {
         opacity: 0,
@@ -54,7 +49,7 @@ const Portfolio = () => {
             transition={pageTransition}
         >
             {/* <<!--Porfolio Section Start--> */}
-            <section id="portfolio" className="portfolio-section pt-page">
+            <section id="portfolio" className="portfolio-section pt-page pb-1">
                 <div className="section-container">
 
                     {/* <!--Page Heading--> */}
@@ -76,49 +71,71 @@ const Portfolio = () => {
                     <div className="row portfolio-items mb-5 ">
 
                         {/* <!--Portfolio Item--> */}
-                        <div className="item col-lg-6 col-sm-8">
-                            <a className="image-link" href="https://mostafa142.github.io/React-First-Project-/" target={"_blank"} rel={"noreferrer"}>
+                        <div className="item col-lg-6 col-sm-10">
+                            <a className="image-link" href="https://mostafa142.github.io/International-school-system/" target={"_blank"} rel={"noreferrer"}>
                                 <figure>
                                     <img src={Img1} alt="" />
                                     <figcaption>
-                                        <h4>Sports Store</h4>
-                                        <p>React js</p>
+                                        <h4>International School System</h4>
+                                        <p>HTML,CSS & JS</p>
                                     </figcaption>
                                 </figure>
                             </a>
                         </div>
 
                         {/* <!--Portfolio Item--> */}
-                        <div className="item col-lg-6  col-sm-8 ">
-                            <a className="ajax-link" href="https://mostafa142.github.io/Guage-Engineering-Consultants/" target={"_blank"} rel={"noreferrer"}>
+                        <div className="item col-lg-6  col-sm-10 ">
+                            <a className="ajax-link" href="https://mostafa142.github.io/Template_1_HTML_and_CSS/" target={"_blank"} rel={"noreferrer"}>
                                 <figure>
-                                    <img src={Img3} alt="" />
+                                    <img src={Img2} alt="" />
                                     <figcaption>
-                                        <h4>Gauge Engineering</h4>
-                                        <p>Html,Css,JS</p>
+                                        <h4>Leon Template</h4>
+                                        <p>Html & CSS</p>
                                     </figcaption>
                                 </figure>
                             </a>
                         </div>
 
-                        <div className="item col-lg-6 col-sm-8">
-                            <a className="ajax-link" href="https://mostafa142.github.io/Life-Of-Giving/" target={"_blank"} rel={"noreferrer"}>
+                        <div className="item col-lg-6 col-sm-10">
+                            <a className="ajax-link" href="https://mostafa142.github.io/Spice-Store/" target={"_blank"} rel={"noreferrer"}>
                                 <figure>
-                                    <img src={Img2} alt="" />
+                                    <img src={Img3} alt="" />
                                     <figcaption>
-                                        <h4>Life Of Giving</h4>
-                                        <p>React</p>
+                                        <h4>Spice Store</h4>
+                                        <p>HTML & CSS </p>
                                     </figcaption>
                                 </figure>
                             </a>
                         </div>
-                        <div className="item col-lg-6 col-sm-8 design text center">
-                            <a className="ajax-link" href="https://mostafa142.github.io/International-school-system/" target={"_blank"} rel={"noreferrer"}>
+                        <div className="item col-lg-6 col-sm-10 design text center">
+                            <a className="ajax-link" href="##">
                                 <figure>
                                     <img src={Img4} alt="" />
                                     <figcaption>
-                                        <h4>International School System</h4>
-                                        <p>Html,Css,JS</p>
+                                        <h4>Sports Store </h4>
+                                        <p>on Update...!</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <div className="item col-lg-6 col-sm-10 design text center">
+                            <a className="ajax-link" href="https://mostafa142.github.io/Guage-Engineering-Consultants/" target={"_blank"} rel={"noreferrer"}>
+                                <figure>
+                                    <img src={Img5} alt="" />
+                                    <figcaption>
+                                        <h4>Gauge Engineering</h4>
+                                        <p>Html,Css,JS & Plugins</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <div className="item col-lg-6 col-sm-10 design text center">
+                            <a className="ajax-link" href="https://mostafa142.github.io/Life-Of-Giving/" target={"_blank"} rel={"noreferrer"}>
+                                <figure>
+                                    <img src={Img6} alt="" />
+                                    <figcaption>
+                                        <h4>Life Of Giving</h4>
+                                        <p>React Js</p>
                                     </figcaption>
                                 </figure>
                             </a>

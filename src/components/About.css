@@ -192,16 +192,16 @@ img {
   margin-bottom: 15px;
   color: #ffffff;
 }
-.clients .client-logo img {
+.clients .Skill-logo img {
   width: 100px;
   height: 100px;
   margin: auto;
-  opacity: 0.9;
+  opacity: 0.6;
   -webkit-transition: opacity 0.4s ease;
   -o-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
 }
-.clients .client-logo img:hover {
+.clients .Skill-logo img:hover {
   opacity: 1;
 }
 .testimonials .testimonial-item {

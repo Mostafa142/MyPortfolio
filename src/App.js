@@ -8,9 +8,9 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faUserTie, faDriversLicense, faBriefcase, faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faUserTie, faDriversLicense, faBriefcase, faEnvelope, faBars, faX } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookSquare, faInstagramSquare, faLinkedin, faGithubSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
-
+import profilePic from './components/Images/profilePic.jpg';
 import './App.css';
 function App() {
   const location = useLocation();
@@ -23,7 +23,7 @@ function App() {
     <header className="container-fluid bg-light p-0" style={{ height: "100vh" }}>
       {/* Header Mobile  */}
       <div className="header-mobile">
-        <div className="header-toggle" onClick={toggleHandler} ><FontAwesomeIcon icon={faBars} /></div>
+        <div className="header-toggle" onClick={toggleHandler} >{toggle ? <FontAwesomeIcon icon={faX} /> : <FontAwesomeIcon icon={faBars} />}</div>
         <h2>Mostafa Fathi</h2>
       </div>
 
@@ -35,12 +35,12 @@ function App() {
 
           <div className="image-container">
             <h2 className="header-name">Mostafa Fathi</h2>
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHwPfsk8ovhBw/profile-displayphoto-shrink_200_200/0/1634682530071?e=1651708800&v=beta&t=wh_MPub8sooNHFWWYJ--HwJ8q0DI0YKALc6POvfIekk" alt="profile-pic" />
+            <img src={profilePic} alt="profile-pic" />
           </div>
 
           <ul className="nav nav-pills flex-column">
             <li className="nav-item">
-              <NavLink to="/" exact className="nav-link">
+              <NavLink to="/MyPortfolio" exact className="nav-link">
                 <span className="nav-menu-icon"><FontAwesomeIcon icon={faHouse} /></span>
                 Home
               </NavLink>

@@ -6,9 +6,6 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from "react-owl-carousel";
 import './About.css';
 import sign from "./Images/Sign.png";
-import auth1 from "./Images/author-1.jpg";
-import auth2 from "./Images/author-2.jpg";
-import auth3 from "./Images/author-3.jpg";
 import skill1 from "./Images/pngegg.png";
 import skill2 from "./Images/JS.png";
 import skill3 from "./Images/bootstrap.png";
@@ -18,6 +15,7 @@ import skill6 from "./Images/TS.png";
 import skill7 from "./Images/c++.png";
 import skill8 from "./Images/git.png";
 import skill9 from "./Images/css.png";
+import skill10 from "./Images/java.png";
 
 const pageVariants = {
     initial: {
@@ -41,6 +39,7 @@ const pageTransition = {
     type: "tween",
     ease: "anticipate",
     duration: 1
+    
 };
 
 const pageStyle = {
@@ -123,7 +122,10 @@ const About = () => {
                             <div className="service-item">
                                 <div className="icon"><FontAwesomeIcon icon={faLaptop} /></div>
                                 <h4>Web Development</h4>
-                                <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p>
+                                <p>responsible for the design and construction of websites,
+                                    ensure that sites meet user expectations by ensuring
+                                    they look good, run smoothly and offer easy access points with
+                                    no loading issues between pages or error messages.</p>
                             </div>
                         </div>
 
@@ -132,7 +134,9 @@ const About = () => {
                             <div className="service-item">
                                 <div className="icon"><FontAwesomeIcon icon={faEye} /></div>
                                 <h4>Web Design</h4>
-                                <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p>
+                                <p>responsible for creating the design and layout of a
+                                    website or web pages. It and can mean working on a
+                                    brand new website or updating an already existing site</p>
                             </div>
                         </div>
 
@@ -141,7 +145,9 @@ const About = () => {
                             <div className="service-item">
                                 <div className="icon"><FontAwesomeIcon icon={faLaptopCode} /></div>
                                 <h4>Responsive Design</h4>
-                                <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p>
+                                <p>dynamic changes to the appearance of a website, depending
+                                    on the screen size and orientation of the device being
+                                    used to view it</p>
                             </div>
                         </div>
 
@@ -150,7 +156,11 @@ const About = () => {
                             <div className="service-item">
                                 <div className="icon"><FontAwesomeIcon icon={faBitcoinSign} /></div>
                                 <h4>Freelancing</h4>
-                                <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p>
+                                <p>
+                                    building a website from start to completion, consulting
+                                    about the use of the best web technologies, and tweaking
+                                    existing website design and layout
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -173,65 +183,72 @@ const About = () => {
                             dots={false}
                         >
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#" >
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##" >
                                     <img src={skill1} alt="Client" />
                                 </a>
                             </div>
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#" >
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##" >
                                     <img src={skill2} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill3} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill4} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill5} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill6} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill7} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill8} alt="Client" />
                                 </a>
                             </div>
 
-                            {/* Client Logo */}
-                            <div className="item client-logo">
-                                <a href="#">
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
                                     <img src={skill9} alt="Client" />
+                                </a>
+                            </div>
+
+                            {/* Skill */}
+                            <div className="item Skill-logo">
+                                <a href="##">
+                                    <img src={skill10} alt="Client" />
                                 </a>
                             </div>
                         </OwlCarousel>

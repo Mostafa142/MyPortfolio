@@ -89,3 +89,6 @@ textarea {
   font-size: 18px;
   color: #fff;
 }
+.contact-section .contact-info .info-item h5 a:hover {
+  text-decoration: none;
+}
