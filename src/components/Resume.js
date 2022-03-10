@@ -148,7 +148,7 @@ const Resume = () => {
                                     </div>
                                     <span className="year">
                                         <span className="to">2019</span>
-                                        <span className="from"> Ungraduated</span>
+                                        <span className="from"> 2023</span>
                                     </span>
                                 </li>
 
@@ -163,8 +163,8 @@ const Resume = () => {
                                         </p>
                                     </div>
                                     <span className="year">
-                                        <span className="to">(Jul)2021</span>
-                                        <span className="from">(Sep)2021</span>
+                                        <span className="to">(Jul) 2021</span>
+                                        <span className="from">(Sep) 2021</span>
                                     </span>
                                 </li>
 

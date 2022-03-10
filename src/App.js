@@ -18,6 +18,7 @@ function App() {
   const toggleHandler = () => {
     setToggle(!toggle);
   };
+
   return (
 
     <header className="container-fluid bg-light p-0" style={{ height: "100vh" }}>
@@ -82,7 +83,7 @@ function App() {
             </ul>
             {/* <!--Copyright Text--> */}
             <div className="copy text-center">
-              <p>2022 &copy; Mostafa Fathi<br />All Right Reserved.</p>
+              <p>2022 &copy; <span>Mostafa Fathi</span><br />All Right Reserved.</p>
             </div>
           </div>
         </nav>
