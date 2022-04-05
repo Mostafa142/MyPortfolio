@@ -54,7 +54,7 @@ const Home = () => {
                         <span>I am a </span>
                         <Typical
                             className=" d-inline typicalAnimation"
-                            steps={['Full-Stack Developer', 3000, 'Freelancer', 3000]}
+                            steps={['Front-End Developer', 3000, 'Freelancer', 3000]}
                             loop={Infinity}
                             wrapper="p"
                         />
