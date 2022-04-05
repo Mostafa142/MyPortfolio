@@ -102,7 +102,7 @@ const About = () => {
                                     <li><span className="title">Freelance</span><span className="value">Available</span></li>
                                 </ul>
                                 <div className="resume-button mt-5">
-                                    <a className="btn-main" target={"_blank"} rel={"noreferrer"} href="https://drive.google.com/file/d/1OS1vFpSP8agupWfSHgJS6yEuUSr4FMPi/view?usp=sharing">Download Resume</a>
+                                    <a className="btn-main" target={"_blank"} rel={"noreferrer"} href="https://drive.google.com/file/d/1NAYRfwiW7G-PfHoqcwHLWjOgZzXbl1NI/view?usp=sharing">Download Resume</a>
                                 </div>
                             </div>
                         </div>
