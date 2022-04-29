@@ -130,6 +130,9 @@ img {
   text-decoration: none;
   background-color: teal;
 }
+.btn-main:focus {
+  color: white;
+}
 .subheading {
   position: relative;
   margin-bottom: 50px;
@@ -200,6 +203,11 @@ img {
   -webkit-transition: opacity 0.4s ease;
   -o-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
+}
+@media (max-width: 575px) {
+  .clients .Skill-logo img {
+    padding: 15px;
+  }
 }
 .clients .Skill-logo img:hover {
   opacity: 1;

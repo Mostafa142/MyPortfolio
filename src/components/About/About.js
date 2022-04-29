@@ -5,17 +5,17 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from "react-owl-carousel";
 import './About.css';
-import sign from "./Images/Sign.png";
-import skill1 from "./Images/pngegg.png";
-import skill2 from "./Images/JS.png";
-import skill3 from "./Images/bootstrap.png";
-import skill4 from "./Images/react.png";
-import skill5 from "./Images/jquery.png";
-import skill6 from "./Images/TS.png";
-import skill7 from "./Images/c++.png";
-import skill8 from "./Images/git.png";
-import skill9 from "./Images/css.png";
-import skill10 from "./Images/java.png";
+import sign from "./../Images/Sign.png";
+import skill1 from "./../Images/pngegg.png";
+import skill2 from "./../Images/JS.png";
+import skill3 from "./../Images/bootstrap.png";
+import skill4 from "./../Images/react.png";
+import skill5 from "./../Images/jquery.png";
+import skill6 from "./../Images/TS.png";
+import skill7 from "./../Images/c++.png";
+import skill8 from "./../Images/git.png";
+import skill9 from "./../Images/css.png";
+import skill10 from "./../Images/java.png";
 
 const pageVariants = {
     initial: {
@@ -68,19 +68,11 @@ const About = () => {
                     <div className="row about mb-5">
                         <div className="col-lg-8">
                             {/* Personal Intro*/}
-                            <h3 className="mb-4">Full-Stack Developer</h3>
+                            <h3 className="mb-4">Front-End Developer</h3>
                             <p>Enthusiastic developer with passion for tailored solutions seeking
                                 the position of a Full Stack Developer in a thriving, exciting and
                                 growing company, where I can utilize my skills to further work towards
                                 personal and professional development and contribute towards the prosperity of the organisation.</p>
-                            <p>I also a professional
-                                goalkeeper and I hope to play for International
-                                football leagues such as the English
-                                Premier League.
-                                My dream is not only for personal goals but also to support my simple family and community.
-                                I even have bigger ambitions like supporting and building football academies especially in Africa and worldwide.
-                                I would very much like to give support and opportunity to all the budding football talents like me who are looking for one chance to show themselves to the whole world .
-                            </p>
 
                             {/* Signature Image */}
                             <div className="signature mt-20">
@@ -97,12 +89,12 @@ const About = () => {
                                     <li><span className="title">Age</span><span className="value">21 Years</span></li>
                                     <li><span className="title">Residence</span><span className="value">Egypt</span></li>
                                     <li><span className="title">Address</span><span className="value">Menofia,Shibin El-Kom</span></li>
-                                    <li><span className="title">Email</span><span className="value">mostafafathi705@gmail.com</span></li>
+                                    <li><span className="title">Email</span><span className="value">mostafafathielsebaey@gmail.com</span></li>
                                     <li><span className="title">Phone</span><span className="value">(+20) 01066924393</span></li>
                                     <li><span className="title">Freelance</span><span className="value">Available</span></li>
                                 </ul>
                                 <div className="resume-button mt-5">
-                                    <a className="btn-main" target={"_blank"} rel={"noreferrer"} href="https://drive.google.com/file/d/1NAYRfwiW7G-PfHoqcwHLWjOgZzXbl1NI/view?usp=sharing">Download Resume</a>
+                                    <a className="btn-main" target={"_blank"} rel={"noreferrer"} href="https://drive.google.com/file/d/17RHk6CuZCqUVDLF-OuebH-yCIQG5TZvY/view?usp=sharing">Download Resume</a>
                                 </div>
                             </div>
                         </div>

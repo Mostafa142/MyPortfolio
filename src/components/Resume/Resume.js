@@ -52,6 +52,48 @@ const Resume = () => {
                     {/* <!--Education & Experience Row Start--> */}
                     <div className="row mb-4">
 
+                        <div className="col-lg-6">
+                            <div className="subheading">
+                                <h3>Education</h3>
+                            </div>
+
+                            <ul className="education">
+
+                                {/* <!--Education Item--> */}
+                                <li>
+                                    <span className="line-left"></span>
+                                    <div className="content">
+                                        <h4>Computer Science Student</h4>
+                                        <h5>Faculty of Computers & Informations, Shibin El-Kom, EGY</h5>
+                                        <p className="info">
+                                        </p>
+                                    </div>
+                                    <span className="year">
+                                        <span className="to">2019</span>
+                                        <span className="from"></span>
+                                    </span>
+                                </li>
+
+                                {/* <!--Education Item--> */}
+                                <li>
+                                    <span className="line-left"></span>
+                                    <div className="content">
+                                        <h4>Web Development</h4>
+                                        <h5>Information Technology Institute(ITI), Menofia, EGY</h5>
+                                        <p className="info">
+                                            Learned HTML5 & CSS3, Bootstrap, ES, JQuery, Client Side Technologies and React
+                                        </p>
+                                    </div>
+                                    <span className="year">
+                                        <span className="to">(Jul) 2021</span>
+                                        <span className="from">(Sep) 2021</span>
+                                    </span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
                         {/* <!--Experience Column Start--> */}
                         <div className="col-lg-6">
 
@@ -129,73 +171,7 @@ const Resume = () => {
                         {/* <!--Experience Column End--> */}
 
                         {/* <!--Education Column Start--> */}
-                        <div className="col-lg-6">
-                            <div className="subheading">
-                                <h3>Education</h3>
-                            </div>
 
-                            <ul className="education">
-
-                                {/* <!--Education Item--> */}
-                                <li>
-                                    <span className="line-left"></span>
-                                    <div className="content">
-                                        <h4>Computer Science </h4>
-                                        <h5>Faculty of Computers & Informations, Shibin El-Kom, EGY</h5>
-                                        <p className="info">
-                                            Graduated Soon :)
-                                        </p>
-                                    </div>
-                                    <span className="year">
-                                        <span className="to">2019</span>
-                                        <span className="from"> 2023</span>
-                                    </span>
-                                </li>
-
-                                {/* <!--Education Item--> */}
-                                <li>
-                                    <span className="line-left"></span>
-                                    <div className="content">
-                                        <h4>Web Development</h4>
-                                        <h5>Information Technology Institute(ITI), Menofia, EGY</h5>
-                                        <p className="info">
-                                            Learned HTML5 & CSS3, Bootstrap, ES, JQuery, Client Side Technologies and React
-                                        </p>
-                                    </div>
-                                    <span className="year">
-                                        <span className="to">(Jul) 2021</span>
-                                        <span className="from">(Sep) 2021</span>
-                                    </span>
-                                </li>
-
-                            </ul>
-                            <div className="subheading">
-                                <h3>Experience</h3>
-                            </div>
-                            <ul className="experience">
-
-
-
-
-                                {/* <!--Experience Item--> */}
-                                <li>
-                                    {/* <span className="line-left"></span>
-                                    <div className="content">
-                                        <h4>Web Developer</h4>
-                                        <h5>Exis Development, London, UK</h5>
-                                        <p className="info">
-                                            Consectetur pariatur fugiat ipsam aperiam maiores. Nisi in dignissimos debitis expedita asperiores delectus vitae corporis.
-                                        </p>
-                                    </div>
-                                    <span className="year">
-                                        <span className="to">2015</span>
-                                        <span className="from">2014</span>
-                                    </span> */}
-                                </li>
-
-                            </ul>
-
-                        </div>
                         {/* <!--Education Column End--> */}
 
                     </div>

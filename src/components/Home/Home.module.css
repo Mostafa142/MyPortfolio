@@ -1,5 +1,5 @@
 .banner-section {
-  background-image: url("./Images/home-bg.jpg");
+  background-image: url("./../Images/home-bg.jpg");
   background-size: cover;
   width: calc(100% - 200px);
   height: 100vh;

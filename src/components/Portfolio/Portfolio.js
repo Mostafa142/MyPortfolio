@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import './Portfolio.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import Img1 from './Images/img-1.jpg';
-import Img2 from './Images/img-2.jpg';
-import Img3 from './Images/img-3.jpg';
-import Img4 from './Images/img-4.jpg';
-import Img5 from './Images/img-5.jpg';
-import Img6 from './Images/img-6.jpg';
+import Img1 from './../Images/img-1.jpg';
+import Img2 from './../Images/img-2.jpg';
+import Img3 from './../Images/img-3.jpg';
+import Img4 from './../Images/img-4.jpg';
+import Img5 from './../Images/img-5.jpg';
+import Img6 from './../Images/img-6.jpg';
 const pageVariants = {
     initial: {
         opacity: 0,

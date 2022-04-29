@@ -109,7 +109,7 @@ const Contact = () => {
                         {/* <!--Contact Info Item--> */}
                         <div className="col-md-4 info-item">
                             <span className="icon"><FontAwesomeIcon icon={faPaperPlane} /></span>
-                            <h5><a href="mailto:example@example.com">Mostafafathi705@gmail.com</a></h5>
+                            <h5><a href="mailto:example@example.com">mostafafathielsebaey@gmail.com</a></h5>
                         </div>
 
                         {/* <!--Contact Info Item--> */}

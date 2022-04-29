@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Typical from 'react-typical'
-import './Home.css';
+import classes from './Home.module.css';
 const pageVariants = {
     initial: {
         opacity: 0,
@@ -42,10 +42,10 @@ const Home = () => {
             transition={pageTransition}
         >
             {/* Banner Section Start */}
-            <section id="home" className=" banner-section pt-page ">
+            <section id="home" className={`${classes['banner-section']} pt-page`}>
                 <div id="particles-js"></div>
 
-                <div className="banner-content">
+                <div className={classes['banner-content']}>
                     {/*Banner Text */}
                     <h1 className="mb-20">Mostafa <span>Fathi</span></h1>
 
@@ -53,7 +53,7 @@ const Home = () => {
                     <p>
                         <span>I am a </span>
                         <Typical
-                            className=" d-inline typicalAnimation"
+                            className={`${classes['typicalAnimation']} d-inline`}
                             steps={['Front-End Developer', 3000, 'Freelancer', 3000]}
                             loop={Infinity}
                             wrapper="p"
