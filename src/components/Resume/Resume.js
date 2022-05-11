@@ -109,7 +109,7 @@ const Resume = () => {
                                         <h4>JavaScript - The Complete Guide 2022 (Beginner + Advanced)</h4>
                                         <h5>Maximilian (Udemy)</h5>
                                         <p className="info">
-                                            Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!
+                                            Modern JavaScript from the beginning - all the way up to JS expert level! THE must-have JavaScript resource in 2022.
                                         </p>
                                     </div>
                                     <span className="year">
