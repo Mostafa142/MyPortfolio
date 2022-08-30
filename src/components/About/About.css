@@ -1,3 +1,6 @@
+:root{
+  --main-color:teal;
+  }
 a,
 a:hover,
 a:focus {
@@ -38,7 +41,7 @@ img {
   float: right;
   font-size: 38px;
   line-height: 1em;
-  color: teal;
+  color: var(--main-color);
 }
 .page-heading h2 {
   font-size: 36px;
@@ -46,7 +49,7 @@ img {
   letter-spacing: 1.5px;
   line-height: 1em;
   text-transform: capitalize;
-  color: teal;
+  color: var(--main-color);
   position: relative;
   display: inline-block;
 }
@@ -97,7 +100,7 @@ img {
   color: #ffffff;
 }
 .about-info ul li span.title {
-  border-color: teal !important;
+  border-color: var(--main-color) !important;
 }
 .about-section .about .about-info ul li span.title:after {
   content: ":";
@@ -122,13 +125,13 @@ img {
   overflow: hidden;
 }
 .btn-main {
-  border-color: teal !important;
-  color: teal;
+  border-color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 .btn-main:hover {
   text-decoration: none;
-  background-color: teal;
+  background-color: var(--main-color);
 }
 .btn-main:focus {
   color: white;
@@ -151,14 +154,14 @@ img {
   color: #ffffff;
 }
 .subheading h3 {
-  border-color: teal !important;
+  border-color: var(--main-color) !important;
 }
 .subheading h3:after {
   position: absolute;
   content: "";
   width: 2px;
   height: 5px;
-  background-color: teal;
+  background-color: var(--main-color);
   bottom: 0;
   right: 0;
 }
@@ -167,7 +170,7 @@ img {
   content: "";
   width: 2px;
   height: 5px;
-  background-color: teal;
+  background-color: var(--main-color);
   bottom: 0;
   left: 0;
 }
@@ -180,7 +183,7 @@ img {
   font-size: 50px;
   margin-bottom: 10px;
   line-height: 1em;
-  color: teal;
+  color: var(--main-color);
 }
 .about-section .services .service-item h4 {
   font-size: 18px;
@@ -241,7 +244,7 @@ img {
   font-size: 50px;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: teal;
+  color: var(--main-color);
 }
 .testimonials .testimonial-item .testimonial-content p {
   margin-bottom: 0;

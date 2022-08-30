@@ -1,3 +1,6 @@
+:root{
+  --main-color:teal;
+  }
 .portfolio-section {
   background-color: #2c2d2f;
   width: calc(100% - 200px);
@@ -25,7 +28,7 @@
   padding-left: 0;
 }
 .portfolio-section .portfolio-filter ul li.active {
-  background-color: teal;
+  background-color: var(--main-color);
   -webkit-border-radius: 27px;
   border-radius: 27px;
   color: #2c2d2f;
@@ -65,12 +68,13 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: teal;
+  background-color: var(--main-color);
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
 .portfolio-section .item figure figcaption {
   position: absolute;
   left: 0;
@@ -97,7 +101,7 @@
 
 .portfolio-section .item figure:hover:before {
   opacity: 0.8;
-  background-color: teal;
+  background-color: var(--main-color);
 }
 
 .portfolio-section .item figure:hover figcaption h4,

@@ -1,3 +1,6 @@
+:root{
+--main-color:teal;
+}
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -39,7 +42,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: teal;
+  background-color: var(--main-color);
   opacity: 0.8;
   z-index: -1;
 }
@@ -120,7 +123,7 @@ header nav ul .nav-item a span.nav-menu-icon {
   color: #777;
 }
 .nav-footer .copy p span {
-  color: teal;
+  color: var(--main-color);
   font-weight: 900;
   cursor: pointer;
 }

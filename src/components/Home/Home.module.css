@@ -1,5 +1,8 @@
+:root{
+  --main-color:teal;
+  }
 .banner-section {
-  background-image: url("./../Images/home-bg.jpg");
+  background-image: url("./../Images/HomeCover.jpg");
   background-size: cover;
   width: calc(100% - 200px);
   height: 100vh;
@@ -10,7 +13,7 @@
 .banner-section::before {
   content: "";
   position: absolute;
-  background-color: #2125294a;
+  background-color: #2125299d;
   top: 0;
   left: 0;
   width: 100%;
@@ -38,14 +41,14 @@
 }
 .banner-section .banner-content h1 span {
   font-weight: 700;
-  color: teal;
+  color: var(--main-color);
   font-family: "Playfair Display", serif;
 }
-.banner-section .banner-content p {
+.banner-section .banner-content div {
   font-size: 28px;
 }
 .typicalAnimation {
-  color: teal;
+  color: var(--main-color);
   font-weight: 900;
 }
 
@@ -57,7 +60,7 @@
   .banner-section .banner-content h1 {
     font-size: 50px;
   }
-  .banner-section .banner-content p {
+  .banner-section .banner-content div {
     font-size: 22px;
   }
 }

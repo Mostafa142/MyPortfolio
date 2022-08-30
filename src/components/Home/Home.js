@@ -1,70 +1,44 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Typical from 'react-typical'
-import classes from './Home.module.css';
-const pageVariants = {
-    initial: {
-        opacity: 0,
-        x: "0vw",
-        scale: 0.8
-    },
-    in: {
-        opacity: 1,
-        x: 0,
-        scale: 1
-    },
-    out: {
-        opacity: 0,
-        x: "0vw",
-        scale: 1.2
-    }
-};
+import Typical from "react-typical";
+import classes from "./Home.module.css";
 
-const pageTransition = {
-    type: "tween",
-    ease: "anticipate",
-    duration: 1
-};
 
 const pageStyle = {
-    overflow: "hidden"
-
+  overflow: "hidden",
 };
 const Home = () => {
+  return (
+    <motion.div
+      style={pageStyle}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: .5, duration: 1 }}
+    >
+      {/* Banner Section Start */}
+      <section id="home" className={`${classes["banner-section"]} pt-page`}>
+        <div id="particles-js"></div>
 
-    return (
-        <motion.div
-            style={pageStyle}
-            initial="initial"
-            animate="in"
-            exit="out"
-            variants={pageVariants}
-            transition={pageTransition}
-        >
-            {/* Banner Section Start */}
-            <section id="home" className={`${classes['banner-section']} pt-page`}>
-                <div id="particles-js"></div>
+        <div className={classes["banner-content"]}>
+          {/*Banner Text */}
+          <h1 className="mb-20">
+            Mostafa <span>Fathi</span>
+          </h1>
 
-                <div className={classes['banner-content']}>
-                    {/*Banner Text */}
-                    <h1 className="mb-20">Mostafa <span>Fathi</span></h1>
-
-                    {/*Animated Text */}
-                    <p>
-                        <span>I am a </span>
-                        <Typical
-                            className={`${classes['typicalAnimation']} d-inline`}
-                            steps={['Front-End Developer', 3000, 'Freelancer', 3000]}
-                            loop={Infinity}
-                            wrapper="p"
-                        />
-                    </p>
-
-                </div>
-
-            </section>
-            {/* Banner Section End */}
-        </motion.div >
-    );
-}
+          {/*Animated Text */}
+          <div>
+            <span>I am a </span>
+            <Typical
+              className={`${classes["typicalAnimation"]} d-inline`}
+              steps={["Front-End Developer", 3000, "Freelancer", 3000]}
+              loop={Infinity}
+              wrapper="p"
+            />
+          </div>
+        </div>
+      </section>
+      {/* Banner Section End */}
+    </motion.div>
+  );
+};
 export default Home;
