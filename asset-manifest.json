@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.e5205a1d.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.35a4ade4.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.35a4ade4.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.bde66526.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.bde66526.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.d44573ea.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.d44573ea.js.map",
     "static/css/2.1d849303.chunk.css": "/MyPortfolio/static/css/2.1d849303.chunk.css",
@@ -14,15 +14,15 @@
     "static/js/2.4fcb2f2f.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.4fcb2f2f.chunk.js.LICENSE.txt",
     "static/media/Food Order App.b5bb30e4.png": "/MyPortfolio/static/media/Food Order App.b5bb30e4.png",
     "static/media/Home.module.css": "/MyPortfolio/static/media/HomeCover.8b9c45aa.jpg",
-    "static/media/MyReads.5a5e187b.png": "/MyPortfolio/static/media/MyReads.5a5e187b.png",
-    "static/media/OnlineStore.b221b391.png": "/MyPortfolio/static/media/OnlineStore.b221b391.png",
+    "static/media/MyReads.79da62c2.png": "/MyPortfolio/static/media/MyReads.79da62c2.png",
+    "static/media/OnlineStore.cbefe230.png": "/MyPortfolio/static/media/OnlineStore.cbefe230.png",
     "static/media/TODO.50bac813.png": "/MyPortfolio/static/media/TODO.50bac813.png",
-    "static/media/img-1.21bafe39.jpg": "/MyPortfolio/static/media/img-1.21bafe39.jpg",
-    "static/media/img-2.cc198d26.jpg": "/MyPortfolio/static/media/img-2.cc198d26.jpg",
-    "static/media/img-3.17f441b5.jpg": "/MyPortfolio/static/media/img-3.17f441b5.jpg",
-    "static/media/img-4.c74a1979.jpg": "/MyPortfolio/static/media/img-4.c74a1979.jpg",
-    "static/media/img-5.f749ec93.jpg": "/MyPortfolio/static/media/img-5.f749ec93.jpg",
-    "static/media/img-6.3c7a24d3.jpg": "/MyPortfolio/static/media/img-6.3c7a24d3.jpg",
+    "static/media/img-1.19f967bc.jpg": "/MyPortfolio/static/media/img-1.19f967bc.jpg",
+    "static/media/img-2.9947c6ac.jpg": "/MyPortfolio/static/media/img-2.9947c6ac.jpg",
+    "static/media/img-3.8310435b.jpg": "/MyPortfolio/static/media/img-3.8310435b.jpg",
+    "static/media/img-4.6f4dbad9.jpg": "/MyPortfolio/static/media/img-4.6f4dbad9.jpg",
+    "static/media/img-5.389efde8.jpg": "/MyPortfolio/static/media/img-5.389efde8.jpg",
+    "static/media/img-6.a51073d1.jpg": "/MyPortfolio/static/media/img-6.a51073d1.jpg",
     "static/media/jquery.df055ed6.png": "/MyPortfolio/static/media/jquery.df055ed6.png",
     "static/media/profilePic.a9fa18cd.jpg": "/MyPortfolio/static/media/profilePic.a9fa18cd.jpg",
     "static/media/react.05c3b859.png": "/MyPortfolio/static/media/react.05c3b859.png"
@@ -32,6 +32,6 @@
     "static/css/2.1d849303.chunk.css",
     "static/js/2.4fcb2f2f.chunk.js",
     "static/css/main.e5205a1d.chunk.css",
-    "static/js/main.35a4ade4.chunk.js"
+    "static/js/main.bde66526.chunk.js"
   ]
 }
