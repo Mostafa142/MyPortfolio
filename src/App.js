@@ -60,7 +60,12 @@ function App() {
           </div>
 
           <ul className="nav nav-pills flex-column">
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              onClick={() => {
+                setToggle(false);
+              }}
+            >
               <NavLink to="/MyPortfolio/home" exact className="nav-link">
                 <span className="nav-menu-icon">
                   <FontAwesomeIcon icon={faHouse} />
@@ -68,7 +73,12 @@ function App() {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              onClick={() => {
+                setToggle(false);
+              }}
+            >
               <NavLink to="/MyPortfolio/about" className="nav-link ">
                 <span className="nav-menu-icon">
                   <FontAwesomeIcon icon={faUserTie} />
@@ -76,7 +86,12 @@ function App() {
                 About Me
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              onClick={() => {
+                setToggle(false);
+              }}
+            >
               <NavLink to="/MyPortfolio/resume" className="nav-link">
                 <span className="nav-menu-icon">
                   <FontAwesomeIcon icon={faDriversLicense} />
@@ -84,7 +99,12 @@ function App() {
                 Resume
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              onClick={() => {
+                setToggle(false);
+              }}
+            >
               <NavLink to="/MyPortfolio/portfolio" className="nav-link">
                 <span className="nav-menu-icon">
                   <FontAwesomeIcon icon={faBriefcase} />
@@ -92,7 +112,12 @@ function App() {
                 Portfolio
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              onClick={() => {
+                setToggle(false);
+              }}
+            >
               <NavLink to="/MyPortfolio/contact" className="nav-link">
                 <span className="nav-menu-icon">
                   <FontAwesomeIcon icon={faEnvelope} />
@@ -161,7 +186,13 @@ function App() {
             </div>
           </div>
         </nav>
-        <main id="main" className="wrapper">
+        <main
+          id="main"
+          className="wrapper"
+          onClick={() => {
+            setToggle(false);
+          }}
+        >
           <AnimatePresence>
             <Switch location={location} key={location.pathname}>
               <Route path="/MyPortfolio/about" component={About} />
