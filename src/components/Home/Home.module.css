@@ -2,7 +2,7 @@
   --main-color:teal;
   }
 .banner-section {
-  background-image: url("./../Images/HomeCover.jpg");
+  background-image: url("../../assets/Images/HomeCover.jpg");
   background-size: cover;
   width: calc(100% - 200px);
   height: 100vh;

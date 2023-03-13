@@ -33,8 +33,28 @@
   border-radius: 27px;
   color: #2c2d2f;
 }
+.portfolio-section .portfolio-filter ul li.active {
+  background-color: var(--main-color);
+  -webkit-border-radius: 27px;
+  border-radius: 27px;
+  color: #2c2d2f;
+}
 .portfolio-section .portfolio-filter ul li {
   display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: #e1e1e1;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.portfolio-section .portfolio-filter ul li button{
+    display: inline-block;
   font-size: 16px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -101,9 +121,33 @@
 
 .portfolio-section .item figure:hover:before {
   opacity: 0.8;
-  background-color: var(--main-color);
+  background-color:rgb(2, 189, 189);
 }
-
+.portfolio-section .item a figure:after {
+  content: "LIVE";
+  position: absolute;
+  font-weight: 900;
+  bottom: 20px;
+  right: 25px;
+  color: #fff;
+  font-size: 26px;
+  opacity: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+  -webkit-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+.portfolio-section .item a figure:hover:after {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
 .portfolio-section .item figure:hover figcaption h4,
 .portfolio-section .item figure:hover figcaption p {
   opacity: 1;
@@ -113,6 +157,7 @@
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
+  font-weight: 900;
 }
 
 .portfolio-section .item figure figcaption {

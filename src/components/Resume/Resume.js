@@ -74,7 +74,7 @@ const Resume = () => {
                   </div>
                   <span className="year">
                     <span className="to">2019</span>
-                    <span className="from"></span>
+                    <span className="from">2023</span>
                   </span>
                 </li>
 
@@ -113,16 +113,7 @@ const Resume = () => {
                     <span className="from">(Sep) 2022</span>
                   </span>
                 </li>
-              </ul>
-            </div>
-
-            {/* <!--Experience Column Start--> */}
-            <div className="col-lg-6">
-              <div className="subheading">
-                <h3>Courses </h3>
-              </div>
-              <ul className="experience">
-                {/* <!--Experience Item--> */}
+                {/* <!--Edu Item--> */}
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
@@ -141,8 +132,7 @@ const Resume = () => {
                     <span className="from">2021</span>
                   </span>
                 </li>
-
-                {/* <!--Experience Item--> */}
+                {/* <!--EDU Item--> */}
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
@@ -162,42 +152,60 @@ const Resume = () => {
                     <span className="from">2021</span>
                   </span>
                 </li>
+              </ul>
+            </div>
+
+            {/* <!--Experience Column Start--> */}
+            <div className="col-lg-6">
+              <div className="subheading">
+                <h3>Experience</h3>
+              </div>
+              <ul className="experience">
+                {/* <!--Experience Item--> */}
+                <li>
+                  <span className="line-left"></span>
+                  <div className="content">
+                    <h4>Frontend Developer</h4>
+                    <h5>Upwork · Freelance</h5>
+                    <p className="info">
+                      Use markup languages like HTML to create user-friendly web
+                      pages.<br></br>
+                      Maintain and improve websites for customers.<br></br>
+                      Optimize applications for maximum speed and scalability to
+                      make them easy to use for customers.<br></br>
+                      Collaborate with back-end developers and web designers to
+                      improve usability.<br></br>
+                      Get feedback from, and build solutions for, users and
+                      customers.<br></br>
+                      Stay up-to-date on emerging technologies to keep up with
+                      the times.<br></br>
+                    </p>
+                  </div>
+                  <span className="year">
+                    <span className="to">Present </span>
+                    <span className="from">Jun 2022 </span>
+                  </span>
+                </li>
 
                 {/* <!--Experience Item--> */}
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
-                    <h4>Frontend Development</h4>
-                    <h5>ElZero Web School</h5>
-                    <p className="info">HTML, CSS & JS</p>
-                  </div>
-                  <span className="year">
-                    <span className="to">2020</span>
-                    <span className="from">2021</span>
-                  </span>
-                </li>
-
-                <li>
-                  <span className="line-left"></span>
-                  <div className="content">
-                    <h4>PHP Development</h4>
-                    <h5>Mahara Tech</h5>
+                    <h4>Frontend Developer Trainee</h4>
+                    <h5>Information Technology Institute (ITI) · Internship</h5>
                     <p className="info">
-                      Buliding Web Applications using PHP & MYSQL
+                      Coded signed-off designs into working web page templates
+                      in HTML5, CSS, and JavaScript. Integrated those web page
+                      templates into content management systems.
                     </p>
                   </div>
                   <span className="year">
-                    <span className="to">2021</span>
-                    <span className="from">2022</span>
+                    <span className="to">Sep 2021 </span>
+                    <span className="from">Jul 2021</span>
                   </span>
                 </li>
               </ul>
             </div>
-            {/* <!--Experience Column End--> */}
-
-            {/* <!--Education Column Start--> */}
-
-            {/* <!--Education Column End--> */}
           </motion.div>
           {/* <!--Education & Experience Row End--> */}
         </motion.div>

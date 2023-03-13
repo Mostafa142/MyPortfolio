@@ -24,7 +24,7 @@ import {
   faGithubSquare,
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
-import profilePic from "./components/Images/profilePic.jpg";
+import profilePic from "./assets/Images/profilePic.jpg";
 import "./App.css";
 function App() {
   const location = useLocation();

@@ -11,17 +11,22 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
 import "./About.css";
-import sign from "./../Images/Sign.png";
-import skill1 from "./../Images/pngegg.png";
-import skill2 from "./../Images/JS.png";
-import skill3 from "./../Images/bootstrap.png";
-import skill4 from "./../Images/react.png";
-import skill5 from "./../Images/jquery.png";
-import skill6 from "./../Images/TS.png";
-import skill7 from "./../Images/c++.png";
-import skill8 from "./../Images/git.png";
-import skill9 from "./../Images/css.png";
-import skill10 from "./../Images/java.png";
+import sign from "../../assets/Images/icons/Sign.png";
+import skill1 from "../../assets/Images/icons/pngegg.png";
+import skill2 from "../../assets/Images/icons/JS.png";
+import skill3 from "../../assets/Images/icons/bootstrap.png";
+import skill4 from "../../assets/Images/icons/react.png";
+import skill5 from "../../assets/Images/icons/jquery.png";
+import skill6 from "../../assets/Images/icons/TS.png";
+import skill7 from "../../assets/Images/icons/c++.png";
+import skill8 from "../../assets/Images/icons/git.png";
+import skill9 from "../../assets/Images/icons/css.png";
+import skill10 from "../../assets/Images/icons/formik.png";
+import skill11 from "../../assets/Images/icons/Jira.png";
+import skill12 from "../../assets/Images/icons/png-transparent-material-ui-logo.png";
+import skill13 from "../../assets/Images/icons/Postman.png";
+import skill14 from "../../assets/Images/icons/redux.svg";
+import skill15 from "../../assets/Images/icons/SASS.png";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -296,6 +301,36 @@ const About = () => {
               <div className="item Skill-logo">
                 <a href="##">
                   <img src={skill10} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill11} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill12} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill13} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill14} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill15} alt="Client" />
                 </a>
               </div>
             </OwlCarousel>

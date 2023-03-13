@@ -2,16 +2,9 @@ import { motion } from "framer-motion";
 import "./Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import Img1 from "./../Images/img-1.jpg";
-import Img2 from "./../Images/img-2.jpg";
-import Img3 from "./../Images/img-3.jpg";
-import Img4 from "./../Images/img-4.jpg";
-import Img5 from "./../Images/img-5.jpg";
-import Img6 from "./../Images/img-6.jpg";
-import TODO from "./../Images/TODO.png";
-import FoodApp from "./../Images/Food Order App.png";
-import OnlineStore from "./../Images/OnlineStore.png";
-import MyReads from "./../Images/MyReads.png";
+
+import { ProjectsData } from "./ProjectsData";
+import { useState } from "react";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -39,6 +32,33 @@ const pageStyle = {
   backgroundColor: "#2c2d2f",
 };
 const Portfolio = () => {
+  const [filteredProjects, setFilteredProjects] = useState(
+    ProjectsData.slice(0).reverse()
+  );
+  const [activeAll, setActiveAll] = useState("active");
+  const [activeProjects, setActiveProjects] = useState("");
+  const [activeChallenges, setActiveChallenges] = useState("");
+  const handleBtns = (e) => {
+    let products;
+    if (e === "all") {
+      setFilteredProjects(ProjectsData.slice(0).reverse());
+      setActiveAll("active");
+      setActiveProjects("");
+      setActiveChallenges("");
+    } else if (e === "projects") {
+      products = ProjectsData.filter((item) => item.type === "project");
+      setFilteredProjects(products);
+      setActiveAll("");
+      setActiveProjects("active");
+      setActiveChallenges("");
+    } else if (e === "challenges") {
+      products = ProjectsData.filter((item) => item.type === "challenge");
+      setFilteredProjects(products.reverse());
+      setActiveAll("");
+      setActiveProjects("");
+      setActiveChallenges("active");
+    }
+  };
   return (
     <motion.div
       style={pageStyle}
@@ -76,178 +96,63 @@ const Portfolio = () => {
             </div>
           </motion.div>
 
+          <motion.div className="row" variants={item}>
+            <div className="col-md-12 portfolio-filter text-center">
+              <ul>
+                <li
+                  onClick={(e) => handleBtns(e.target.textContent)}
+                  className={activeAll}
+                >
+                  all
+                </li>
+                <li
+                  onClick={(e) => handleBtns(e.target.textContent)}
+                  value={"projects"}
+                  className={activeProjects}
+                >
+                  projects
+                </li>
+                <li
+                  onClick={(e) => handleBtns(e.target.textContent)}
+                  value={"challenges"}
+                  className={activeChallenges}
+                >
+                  challenges
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+
           {/* <!--Portfolio Items--> */}
           <div className="row portfolio-items mb-5 justify-content-center ">
-            {/* <!--Portfolio Item--> */}
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="image-link"
-                href="https://mostafa142.github.io/International-school-system/"
-                target={"_blank"}
-                rel={"noreferrer"}
+            {filteredProjects.map((project) => (
+              <motion.div
+                key={project.id}
+                className="item col-lg-6 col-sm-10"
+                variants={item}
+                whileHover={{ scale: 0.9, rotate: project.rotate }}
+                whileTap={{
+                  scale: 1,
+                  rotate: 2,
+                  borderRadius: "100%",
+                }}
               >
-                <figure>
-                  <img src={Img1} alt="website cover" />
-                  <figcaption>
-                    <h4>International School System</h4>
-                    <p>HTML,CSS & JS</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            {/* <!--Portfolio Item--> */}
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="ajax-link"
-                href="https://mostafa142.github.io/TODO-App/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={TODO} alt="website cover" />
-                  <figcaption>
-                    <h4>TODO</h4>
-                    <p>React js App</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="image-link"
-                href="/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={OnlineStore} alt="website cover" />
-                  <figcaption>
-                    <h4>Online Store (on Update!)</h4>
-                    <p>
-                      React Js app using (React Hooks, React Redux & graphql)
-                    </p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            {/* <!--Portfolio Item--> */}
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="ajax-link"
-                href="/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={MyReads} alt="website cover" />
-                  <figcaption>
-                    <h4>MyReads App (on Update!)</h4>
-                    <p>React js app using (React Hooks & Udacity Api)</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            {/* <!--Portfolio Item--> */}
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="image-link"
-                href="https://mostafa142.github.io/Food-Order-App/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={FoodApp} alt="website cover" />
-                  <figcaption>
-                    <h4>Food Order App</h4>
-                    <p>React Js app (React Hooks)</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            {/* <!--Portfolio Item--> */}
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="ajax-link"
-                href="https://mostafa142.github.io/Template_1_HTML_and_CSS/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={Img2} alt="website cover" />
-                  <figcaption>
-                    <h4>Leon Template</h4>
-                    <p>Html & CSS</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="ajax-link"
-                href="https://mostafa142.github.io/Spice-Store/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={Img3} alt="website cover" />
-                  <figcaption>
-                    <h4>Spice Store</h4>
-                    <p>HTML & CSS </p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a className="ajax-link" href="/">
-                <figure>
-                  <img src={Img4} alt="website cover" />
-                  <figcaption>
-                    <h4>Sports Store </h4>
-                    <p>On Update...!</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="ajax-link"
-                href="/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={Img5} alt="website cover" />
-                  <figcaption>
-                    <h4>Gauge Engineering</h4>
-                    <p>In Progress...!</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
-
-            <motion.div className="item col-lg-6 col-sm-10" variants={item}>
-              <a
-                className="ajax-link"
-                href="https://mostafa142.github.io/Life-Of-Giving/"
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                <figure>
-                  <img src={Img6} alt="website cover" />
-                  <figcaption>
-                    <h4>Life Of Giving</h4>
-                    <p>React Js</p>
-                  </figcaption>
-                </figure>
-              </a>
-            </motion.div>
+                <a
+                  className="image-link"
+                  href={project.liveLink}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <figure>
+                    <img src={project.img} alt="website cover" />
+                    <figcaption>
+                      <h4>{project.title}</h4>
+                      <p>{project.description}</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
       </section>
