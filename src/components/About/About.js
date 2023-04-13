@@ -139,7 +139,7 @@ const About = () => {
                     className="btn-main"
                     target={"_blank"}
                     rel={"noreferrer"}
-                    href="https://drive.google.com/file/d/1V3ZIOMi70HylVGuZRZN8rblDKrds91Y2/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1HVf0MKrMUpG9qXbgZWN2c9gJdevkPiGb/view?usp=share_link"
                   >
                     Download Resume
                   </a>

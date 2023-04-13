@@ -21,7 +21,6 @@ import MyReads from "../../assets/Images/MyReads.png";
 export const ProjectsData = [
   {
     id: 0,
-    rotate: -2,
     liveLink: "https://mostafa142.github.io/International-school-system/",
     title: "International School System",
     description: "HTML,CSS & JS",
@@ -30,7 +29,6 @@ export const ProjectsData = [
   },
   {
     id: 1,
-    rotate: 2,
     liveLink: "https://mostafa142.github.io/TODO-App/",
     title: "TODO",
     description: "React js App",
@@ -39,7 +37,6 @@ export const ProjectsData = [
   },
   {
     id: 2,
-    rotate: -2,
     liveLink: "##",
     title: "Online Store (on Update!)",
     description: "React Js app using (React Hooks, React Redux & graphql)",
@@ -48,7 +45,6 @@ export const ProjectsData = [
   },
   {
     id: 3,
-    rotate: 2,
     liveLink: "##",
     title: "MyReads App (on Update!)",
     description: "React js app using (React Hooks & Udacity Api)",
@@ -57,7 +53,6 @@ export const ProjectsData = [
   },
   {
     id: 4,
-    rotate: -2,
     liveLink: "https://mostafa142.github.io/Food-Order-App/",
     title: "Food Order App",
     description: "React Js app (React Hooks)",
@@ -67,7 +62,6 @@ export const ProjectsData = [
 
   {
     id: 5,
-    rotate: 2,
     liveLink: "https://mostafa142.github.io/Template_1_HTML_and_CSS/",
     title: "Leon Template",
     description: "Html & CSS",
@@ -76,7 +70,6 @@ export const ProjectsData = [
   },
   {
     id: 6,
-    rotate: -2,
     liveLink: "https://mostafa142.github.io/Spice-Store/",
     title: "Spice Store",
     description: "Html & CSS",
@@ -86,7 +79,6 @@ export const ProjectsData = [
 
   {
     id: 7,
-    rotate: 2,
     liveLink: "##",
     title: "Sports Store ",
     description: "On Update...!",
@@ -95,7 +87,6 @@ export const ProjectsData = [
   },
   {
     id: 8,
-    rotate: -2,
     liveLink: "https://mostafa142.github.io/Guage-Engineering-Consultants/",
     title: "Gauge Engineering",
     description: "HTML,CSS & JS",
@@ -105,7 +96,6 @@ export const ProjectsData = [
 
   {
     id: 9,
-    rotate: 2,
     liveLink: "https://mostafa142.github.io/Life-Of-Giving/",
     title: "Life Of Giving",
     description: "React Js",
@@ -114,7 +104,6 @@ export const ProjectsData = [
   },
   {
     id: 10,
-    rotate: -2,
     liveLink: "https://mostafa142.github.io/Frontend-Mentor-QR-code-component/",
     title: "Responsive QR Code Component using flexbox",
     description: "HTML & CSS & JS",
@@ -163,7 +152,6 @@ export const ProjectsData = [
   },
   {
     id: 15,
-    rotate: 2,
     liveLink:
       "https://mostafa142.github.io/Social-media-dashboard-with-theme-switcher/",
     title: "Social media dashboard with theme switcher",
@@ -173,7 +161,6 @@ export const ProjectsData = [
   },
   {
     id: 16,
-    rotate: -2,
     liveLink: "https://mostafa142.github.io/Time-Tracker-app/",
     title: "Time Tracking app Using JSON Data",
     description: "HTML & CSS & JS",
@@ -182,7 +169,6 @@ export const ProjectsData = [
   },
   {
     id: 17,
-    rotate: 2,
     liveLink: "https://mostafa142.github.io/Tip-Calculator-app-main/",
     title: "Tip-Calculator-app-main",
     description: "HTML & CSS & JS",
