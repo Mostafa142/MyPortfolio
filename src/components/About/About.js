@@ -27,6 +27,8 @@ import skill12 from "../../assets/Images/icons/png-transparent-material-ui-logo.
 import skill13 from "../../assets/Images/icons/Postman.png";
 import skill14 from "../../assets/Images/icons/redux.svg";
 import skill15 from "../../assets/Images/icons/SASS.png";
+import skill16 from "../../assets/Images/icons/png-transparent-next-js-hd-logo.png";
+import skill17 from "../../assets/Images/icons/Tailwind_CSS_Logo.svg.png";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -107,18 +109,18 @@ const About = () => {
                     <span className="title">Name</span>
                     <span className="value">Mostafa Fathi</span>
                   </li>
-                  <li>
+                  {/* <li>
                     <span className="title">Age</span>
                     <span className="value">22 Years</span>
-                  </li>
+                  </li> */}
                   <li>
                     <span className="title">Residence</span>
                     <span className="value">Egypt</span>
                   </li>
-                  <li>
+                  {/* <li>
                     <span className="title">Address</span>
                     <span className="value">Menofia,Shibin El-Kom</span>
-                  </li>
+                  </li> */}
                   <li>
                     <span className="title">Email</span>
                     <span className="value">
@@ -127,7 +129,7 @@ const About = () => {
                   </li>
                   <li>
                     <span className="title">Phone</span>
-                    <span className="value">(+20) 01066924393</span>
+                    <span className="value">(+20) 01020829108</span>
                   </li>
                   <li>
                     <span className="title">Freelance</span>
@@ -139,7 +141,7 @@ const About = () => {
                     className="btn-main"
                     target={"_blank"}
                     rel={"noreferrer"}
-                    href="https://drive.google.com/file/d/1HVf0MKrMUpG9qXbgZWN2c9gJdevkPiGb/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1S0lJdMZ1v4oX_1wF7Aftp_vaixuZq79j/view?usp=sharing"
                   >
                     Download Resume
                   </a>
@@ -331,6 +333,18 @@ const About = () => {
               <div className="item Skill-logo">
                 <a href="##">
                   <img src={skill15} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill16} alt="Client" />
+                </a>
+              </div>
+              {/* Skill */}
+              <div className="item Skill-logo">
+                <a href="##">
+                  <img src={skill17} alt="Client" />
                 </a>
               </div>
             </OwlCarousel>

@@ -4,6 +4,10 @@ import Img3 from "../../assets/Images/img-3.jpg";
 import Img4 from "../../assets/Images/img-4.jpg";
 import Img5 from "../../assets/Images/img-5.jpg";
 import Img6 from "../../assets/Images/img-6.jpg";
+import Practikum from "../../assets/Images/Practikum.png";
+import SmartTrash from "../../assets/Images/SmartTrash.png";
+import SimpleTodo from "../../assets/Images/TodoNext.png";
+import CarHub from "../../assets/Images/CarHub.png";
 import TODO from "../../assets/Images/TODO.png";
 import challenge1 from "../../assets/Images/challenges/1.jpg";
 import challenge2 from "../../assets/Images/challenges/2.jpg";
@@ -37,9 +41,10 @@ export const ProjectsData = [
   },
   {
     id: 2,
-    liveLink: "##",
-    title: "Online Store (on Update!)",
-    description: "React Js app using (React Hooks, React Redux & graphql)",
+    liveLink: "https://github.com/Mostafa142/Online-Store-Scandiweb",
+    title: "Online Store",
+    description:
+      "React-TypeScript app using (React Hooks,Redux-Toolkit & graphql)",
     img: OnlineStore,
     type: "project",
   },
@@ -112,7 +117,6 @@ export const ProjectsData = [
   },
   {
     id: 11,
-    rotate: 2,
     liveLink:
       "https://mostafa142.github.io/Frontend-Mentor-Order-summary-card/",
     title: "Frontend Mentor - Order summary card",
@@ -122,7 +126,6 @@ export const ProjectsData = [
   },
   {
     id: 12,
-    rotate: -2,
     liveLink:
       "https://mostafa142.github.io/Frontend-Mentor-3-column-preview-card-component/",
     title: "Frontend-Mentor-3-column-preview-card-component",
@@ -132,7 +135,6 @@ export const ProjectsData = [
   },
   {
     id: 13,
-    rotate: 2,
     liveLink:
       "https://mostafa142.github.io/Frontend-Mentor-social-proof-section-master/",
     title: "Frontend-Mentor-social-proof-section-master",
@@ -142,7 +144,6 @@ export const ProjectsData = [
   },
   {
     id: 14,
-    rotate: -2,
     liveLink:
       "https://mostafa142.github.io/Frontend-Mentor-Single-price-grid-component/",
     title: "Frontend Mentor - Single price grid component",
@@ -174,5 +175,37 @@ export const ProjectsData = [
     description: "HTML & CSS & JS",
     img: challenge8,
     type: "challenge",
+  },
+  {
+    id: 18,
+    liveLink: "https://www.practikumeg.com/",
+    title: "Practikum Education",
+    description: "MERN-Stack Development",
+    img: Practikum,
+    type: "project",
+  },
+  {
+    id: 19,
+    liveLink: "https://smart-trash-deployment.vercel.app/",
+    title: "Smart Trash",
+    description: "MERN-Stack & Hardware Development",
+    img: SmartTrash,
+    type: "project",
+  },
+  {
+    id: 20,
+    liveLink: "https://github.com/Mostafa142/Simple-Todo-App",
+    title: "Simple Todo with Next js",
+    description: "CRUD Next js app with TypeScript & Json Server",
+    img: SimpleTodo,
+    type: "challenge",
+  },
+  {
+    id: 21,
+    liveLink: "https://car-hub-ivory.vercel.app/",
+    title: "CarHub",
+    description: "Next js with TypeScript & Cars API",
+    img: CarHub,
+    type: "project",
   },
 ];

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { Switch, Route, NavLink, useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -33,6 +33,13 @@ function App() {
     setToggle(!toggle);
   };
 
+  useEffect(() => {
+    document.title = `Mostafa Fathi | ${
+      location.pathname === "/"
+        ? location.pathname.replace("/", "Home")
+        : location.pathname.replaceAll("/MyPortfolio/", "").toUpperCase()
+    }`;
+  }, [location.pathname]);
   return (
     <header
       className="container-fluid bg-light p-0"
@@ -179,7 +186,7 @@ function App() {
             {/* <!--Copyright Text--> */}
             <div className="copy text-center">
               <p>
-                2022 &copy; <span>Mostafa Fathi</span>
+                2023 &copy; <span>Mostafa Fathi</span>
                 <br />
                 All Right Reserved.
               </p>

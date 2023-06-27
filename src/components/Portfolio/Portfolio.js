@@ -46,7 +46,9 @@ const Portfolio = () => {
       setActiveProjects("");
       setActiveChallenges("");
     } else if (e === "projects") {
-      products = ProjectsData.filter((item) => item.type === "project");
+      products = ProjectsData.filter(
+        (item) => item.type === "project"
+      ).reverse();
       setFilteredProjects(products);
       setActiveAll("");
       setActiveProjects("active");

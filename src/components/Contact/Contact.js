@@ -101,7 +101,7 @@ const Contact = () => {
               <span className="icon">
                 <FontAwesomeIcon icon={faPhone} />
               </span>
-              <h5>(+20) 010 669 24393</h5>
+              <h5>(+20) 010 208 29 108</h5>
             </div>
           </motion.div>
           {/* <!--Contact Info Row End--> */}

@@ -1,6 +1,10 @@
-:root{
---main-color:teal;
+:root {
+  --main-color: teal;
 }
+body {
+  background: #2c2d2f;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
